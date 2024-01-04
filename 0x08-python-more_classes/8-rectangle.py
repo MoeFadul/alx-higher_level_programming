@@ -1,5 +1,10 @@
 #!/usr/bin/python3
+"""
+Defines Rectangle class.
+"""
+
 class Rectangle:
+    """Represent a rectangle."""
     number_of_instances = 0
     print_symbol = "#"
 
@@ -65,3 +70,4 @@ class Rectangle:
             return rect_1
         else:
             return rect_2
+
