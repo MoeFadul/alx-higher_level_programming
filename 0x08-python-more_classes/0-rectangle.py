@@ -4,5 +4,5 @@ Def. a Rectangle class
 """
 
 class Rectangle:
-	"""Rectangle Represtation"""
-	pass
+    """Rectangle Represtation"""
+    pass
