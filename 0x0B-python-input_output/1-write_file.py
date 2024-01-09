@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 """
-Defines a file-writing function
+Defines a file-appending function
 """
 
 
 def write_file(filename="", text=""):
-    with open(filename, "w", encoding="utf-8") as f:
+    """returns number of chars written to "filename" from "text" """
+    with open(filename, 'w', encoding='utf=8') as f:
         return f.write(text)
